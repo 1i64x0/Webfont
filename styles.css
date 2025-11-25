@@ -6,13 +6,13 @@
     font-style: normal;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'freightround_prolight';
     src: url('Fonts/freightroundprobook-webfont.woff2') format('woff2'),
          url('Fonts/freightroundprobook-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 @font-face {
     font-family: 'freightround_prolight';
@@ -26,8 +26,13 @@ body {
     max-width: 600px;
     margin: auto;
     font-family: 'freightround_prolight', Arial, sans-serif;
+    font-weight: 400;
 }
 
 h1 {
-    font-family: "freightround_probold", Arial, Sans-serif;
+    font-family: ""Merriweather", serif;
+}
+
+footer p {
+    font-weight: 700;
 }
